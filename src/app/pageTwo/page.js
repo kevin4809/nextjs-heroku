@@ -1,5 +1,5 @@
-import React from "react";
-import Table from "./components/Table";
+import React from 'react';
+import Table from './components/Table';
 
 const page = () => {
   return <Table />;
