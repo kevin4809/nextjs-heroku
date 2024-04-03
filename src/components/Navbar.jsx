@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="max-w-[1300px] h-[50px]  flex items-center justify-start gap-[50px] w-[90%] m-auto">
         <Link href="/">Home</Link>
         <Link href="/pageTwo">Pagina dos</Link>
+        <Link href="/strapi">Strapi</Link>
       </div>
     </div>
   );
