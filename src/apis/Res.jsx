@@ -15,6 +15,8 @@ export async function getInfoBlog(locale = 'en') {
 
   const { data } = await res.json();
 
+  console.log(data)
+
   return data.map(({ id, attributes }) => {
     const { Titulo, platforms, description, cover } = attributes;
     const platformNames = platforms.data.map(({ attributes }) => attributes.name);
